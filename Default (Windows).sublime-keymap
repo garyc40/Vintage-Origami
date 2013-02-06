@@ -1,0 +1,31 @@
+[
+  { "keys": ["ctrl+j", "k"], "command": "travel_to_pane", "args": {"direction": "up"} },
+  { "keys": ["ctrl+j", "l"], "command": "travel_to_pane", "args": {"direction": "right"} },
+  { "keys": ["ctrl+j", "j"], "command": "travel_to_pane", "args": {"direction": "down"} },
+  { "keys": ["ctrl+j", "h"], "command": "travel_to_pane", "args": {"direction": "left"} },
+
+  { "keys": ["ctrl+j", "shift+k"], "command": "carry_file_to_pane", "args": {"direction": "up"} },
+  { "keys": ["ctrl+j", "shift+l"], "command": "carry_file_to_pane", "args": {"direction": "right"} },
+  { "keys": ["ctrl+j", "shift+j"], "command": "carry_file_to_pane", "args": {"direction": "down"} },
+  { "keys": ["ctrl+j", "shift+h"], "command": "carry_file_to_pane", "args": {"direction": "left"} },
+
+  { "keys": ["ctrl+j", "alt+k"], "command": "clone_file_to_pane", "args": {"direction": "up"} },
+  { "keys": ["ctrl+j", "alt+l"], "command": "clone_file_to_pane", "args": {"direction": "right"} },
+  { "keys": ["ctrl+j", "alt+j"], "command": "clone_file_to_pane", "args": {"direction": "down"} },
+  { "keys": ["ctrl+j", "alt+h"], "command": "clone_file_to_pane", "args": {"direction": "left"} },
+
+  { "keys": ["ctrl+j", "ctrl+k"], "command": "create_pane", "args": {"direction": "up"} },
+  { "keys": ["ctrl+j", "ctrl+l"], "command": "create_pane", "args": {"direction": "right"} },
+  { "keys": ["ctrl+j", "ctrl+j"], "command": "create_pane", "args": {"direction": "down"} },
+  { "keys": ["ctrl+j", "ctrl+h"], "command": "create_pane", "args": {"direction": "left"} },
+
+  { "keys": ["ctrl+j", "ctrl+shift+k"], "command": "destroy_pane", "args": {"direction": "up"} },
+  { "keys": ["ctrl+j", "ctrl+shift+l"], "command": "destroy_pane", "args": {"direction": "right"} },
+  { "keys": ["ctrl+j", "ctrl+shift+j"], "command": "destroy_pane", "args": {"direction": "down"} },
+  { "keys": ["ctrl+j", "ctrl+shift+h"], "command": "destroy_pane", "args": {"direction": "left"} },
+
+  { "keys": ["ctrl+j", "ctrl+alt+k"], "command": "create_pane_with_file", "args": {"direction": "up"} },
+  { "keys": ["ctrl+j", "ctrl+alt+l"], "command": "create_pane_with_file", "args": {"direction": "right"} },
+  { "keys": ["ctrl+j", "ctrl+alt+j"], "command": "create_pane_with_file", "args": {"direction": "down"} },
+  { "keys": ["ctrl+j", "ctrl+alt+h"], "command": "create_pane_with_file", "args": {"direction": "left"} }
+]

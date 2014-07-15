@@ -75,5 +75,11 @@
   },
   { "keys": ["super+j", "super+alt+h"], "command": "create_pane_with_file",
     "args": {"direction": "left"}, "context": [{"key": "setting.command_mode"}]
+  },
+  { "keys": ["super+j", "super+z"], "command": "zoom_pane",
+    "args": {"fraction": 0.9}, "context": [{"key": "setting.command_mode"}]
+  },
+  { "keys": ["super+j", "super+shift+z"], "command": "unzoom_pane",
+    "args": {}, "context": [{"key": "setting.command_mode"}]
   }
 ]
